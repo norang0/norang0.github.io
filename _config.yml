@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: norang_log
 description: norang_log
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://norang0.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 repository: norang0/noragn0.github.io # for github-metadata
 
