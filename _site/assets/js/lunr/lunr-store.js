@@ -10,4 +10,10 @@ var store = [{
         "tags": ["Blog, Swift"],
         "url": "/blog/new-books/",
         "teaser": null
+      },{
+        "title": "Swift 강의",
+        "excerpt":"인터넷 강의들 중에는 추천 많았던 사이트들 몇가지 정리해둔다. 집에서 온라인으로 혼자 하는 것도 편리하지만 다같이 강의실에서 의논하면서 하는 공부도 사실 조금 그립다. 야곰 아카데미 Swift 코드 스타터 캠프/커리어 캠프가 준비되어 있던데, 기회되면 참여해보고 싶다. 야곰 유튜브 iOS App Programming for Starter 시리즈가 간편해 보여서 한번에 보면 좋을 것 같다. kodeco...","categories": ["Blog"],
+        "tags": ["Blog, Swift"],
+        "url": "/blog/swift-school/",
+        "teaser": null
       }]

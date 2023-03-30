@@ -1,4 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-29T22:27:06+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">노랑기술로그</title><subtitle>공부용블로그입니다</subtitle><author><name>Kyuhee hong</name></author><entry><title type="html">Swift 공부에 앞서</title><link href="http://localhost:4000/blog/new-books/" rel="alternate" type="text/html" title="Swift 공부에 앞서" /><published>2023-03-29T00:00:00+09:00</published><updated>2023-03-30T07:00:00+09:00</updated><id>http://localhost:4000/blog/new-books</id><content type="html" xml:base="http://localhost:4000/blog/new-books/"><![CDATA[<p>Swift 공부를 하기로 했다.<br />
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-30T23:38:47+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">노랑기술로그</title><subtitle>공부용블로그입니다</subtitle><author><name>Kyuhee hong</name></author><entry><title type="html">Swift 강의</title><link href="http://localhost:4000/blog/swift-school/" rel="alternate" type="text/html" title="Swift 강의" /><published>2023-03-30T00:00:00+09:00</published><updated>2023-03-31T07:00:00+09:00</updated><id>http://localhost:4000/blog/swift-school</id><content type="html" xml:base="http://localhost:4000/blog/swift-school/"><![CDATA[<p>인터넷 강의들 중에는 추천 많았던 사이트들 몇가지 정리해둔다.<br />
+집에서 온라인으로 혼자 하는 것도 편리하지만 다같이 강의실에서 의논하면서 하는 공부도 사실 조금 그립다.</p>
+
+<ul>
+  <li>
+    <p><a href="https://www.yagom-academy.kr/">야곰 아카데미</a><br />
+Swift 코드 스타터 캠프/커리어 캠프가 준비되어 있던데, 기회되면 참여해보고 싶다.</p>
+  </li>
+  <li>
+    <p><a href="https://www.youtube.com/watch?v=aVpSUBlZPxU&amp;list=PLz8NH7YHUj_ZF2oja5rP4Sow5KK1zf2yk">야곰 유튜브</a><br />
+iOS App Programming for Starter 시리즈가 간편해 보여서 한번에 보면 좋을 것 같다.</p>
+  </li>
+  <li>
+    <p><a href="https://www.kodeco.com/">kodeco</a><br />
+유튜버 마유코가 추천해줬던 raywenderlich 의 새로운 버전인듯 싶다.</p>
+  </li>
+  <li>
+    <p><a href="https://www.codecademy.com/learn/learn-swift">codecademy</a><br />
+레딧같은 커뮤니티에서는 반응 안좋았지만 개인적으로 플랫폼이나 UI 가 마음에 들어서(귀여워서,,) 적어둔다.</p>
+  </li>
+</ul>]]></content><author><name>Kyuhee hong</name></author><category term="Blog" /><category term="Blog, Swift" /><summary type="html"><![CDATA[일단 Youtube?]]></summary></entry><entry><title type="html">Swift 공부에 앞서</title><link href="http://localhost:4000/blog/new-books/" rel="alternate" type="text/html" title="Swift 공부에 앞서" /><published>2023-03-29T00:00:00+09:00</published><updated>2023-03-30T07:00:00+09:00</updated><id>http://localhost:4000/blog/new-books</id><content type="html" xml:base="http://localhost:4000/blog/new-books/"><![CDATA[<p>Swift 공부를 하기로 했다.<br />
 각종 인터넷 강좌들을 찾아보다가 종이책도 있으면 좋을 것 같아서 주문했다.</p>
 
 <p><img src="https://user-images.githubusercontent.com/129058815/228552387-6ac6ba93-4bf6-4d84-bc90-654232839d4a.png" alt="swiftbook Small" /></p>
