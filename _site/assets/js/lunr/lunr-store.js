@@ -16,4 +16,10 @@ var store = [{
         "tags": ["Blog, Swift"],
         "url": "/blog/swift-school/",
         "teaser": null
+      },{
+        "title": "Xcode 내비게이터에서 파일 확장자 표시하기",
+        "excerpt":"Xcode 내비게이터에서 파일을 확인할 때, 아래와 같이 파일 아이콘과 이름만 표시되는 경우가 있다. (아무것도 모르는 상태에서 동영상 강의 따라가다 미아된 적이..) 해당 설정은 아래에서 변경할 수 있다. (Xcode 14.2 기준) [Xcode] - [Settings] - [General] - [File Extensions] Xcode - Settings General - File Extensions Select [Show All] File Extensions...","categories": ["howTo"],
+        "tags": ["Swift, Xcode"],
+        "url": "/howto/xcode-howto-showfileextension/",
+        "teaser": null
       }]
