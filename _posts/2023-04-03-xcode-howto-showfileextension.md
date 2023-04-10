@@ -3,7 +3,7 @@ title:  "Xcode 내비게이터에서 파일 확장자 표시하기"
 excerpt: ".swift .storyboard 등등"
 
 categories:
-  - howTo
+  - Xcode
 tags:
   - Swift, Xcode
 last_modified_at: 2023-04-03T22:00:00

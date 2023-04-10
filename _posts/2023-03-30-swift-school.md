@@ -3,7 +3,7 @@ title:  "Swift 강의"
 excerpt: "일단 Youtube?"
 
 categories:
-  - Blog
+  - Swift
 tags:
   - Blog, Swift
 last_modified_at: 2023-03-30T22:00:00

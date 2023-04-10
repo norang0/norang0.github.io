@@ -9,8 +9,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Xcode 내비게이터에서 파일 확장자 표시하기 - 노랑기술로그</title>
-<meta name="description" content=".swift .storyboard 등등">
+<!-- begin _includes/seo.html --><title>Swift 공부에 앞서 - 노랑기술로그</title>
+<meta name="description" content="일단 책부터 산다">
 
 
   <meta name="author" content="Kyuhee hong">
@@ -22,32 +22,32 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="노랑기술로그">
-<meta property="og:title" content="Xcode 내비게이터에서 파일 확장자 표시하기">
-<meta property="og:url" content="http://localhost:4000/howto/xcode-howto-showfileextension/">
+<meta property="og:title" content="Swift 공부에 앞서">
+<meta property="og:url" content="http://localhost:4000/swift/new-books/">
 
 
-  <meta property="og:description" content=".swift .storyboard 등등">
-
-
-
+  <meta property="og:description" content="일단 책부터 산다">
 
 
 
 
-  <meta property="article:published_time" content="2023-04-03T00:00:00+09:00">
 
 
 
-  <meta property="article:modified_time" content="2023-04-04T07:00:00+09:00">
+  <meta property="article:published_time" content="2023-03-29T00:00:00+09:00">
 
 
 
-  
+  <meta property="article:modified_time" content="2023-03-30T07:00:00+09:00">
+
+
 
   
 
+  
 
-<link rel="canonical" href="http://localhost:4000/howto/xcode-howto-showfileextension/">
+
+<link rel="canonical" href="http://localhost:4000/swift/new-books/">
 
 
 
@@ -119,7 +119,11 @@
           
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/">Quick-Start Guide</a>
+              <a href="/categories/">Categories</a>
+            </li><li class="masthead__menu-item">
+              <a href="/categories/swift/">Swift</a>
+            </li><li class="masthead__menu-item">
+              <a href="/categories/xcode/">Xcode</a>
             </li></ul>
         
         <button class="greedy-nav__toggle hidden" type="button">
@@ -262,16 +266,16 @@
 
 
   <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Xcode 내비게이터에서 파일 확장자 표시하기">
-    <meta itemprop="description" content=".swift .storyboard 등등">
-    <meta itemprop="datePublished" content="2023-04-03T00:00:00+09:00">
-    <meta itemprop="dateModified" content="2023-04-04T07:00:00+09:00">
+    <meta itemprop="headline" content="Swift 공부에 앞서">
+    <meta itemprop="description" content="일단 책부터 산다">
+    <meta itemprop="datePublished" content="2023-03-29T00:00:00+09:00">
+    <meta itemprop="dateModified" content="2023-03-30T07:00:00+09:00">
 
     <div class="page__inner-wrap">
       
         <header>
           <h1 id="page-title" class="page__title p-name" itemprop="headline">
-            <a href="http://localhost:4000/howto/xcode-howto-showfileextension/" class="u-url" itemprop="url">Xcode 내비게이터에서 파일 확장자 표시하기
+            <a href="http://localhost:4000/swift/new-books/" class="u-url" itemprop="url">Swift 공부에 앞서
 </a>
           </h1>
           
@@ -282,39 +286,14 @@
 
       <section class="page__content e-content" itemprop="text">
         
-        <p>Xcode 내비게이터에서 파일을 확인할 때, 아래와 같이 파일 아이콘과 이름만 표시되는 경우가 있다.<br />
-(아무것도 모르는 상태에서 동영상 강의 따라가다 미아된 적이..)<br />
-<img src="https://user-images.githubusercontent.com/129058815/229528668-fc3f00e0-888c-417a-a084-60f2e2faa9e6.png" alt="FileExtensionsHideAll" /></p>
+        <p>Swift 공부를 하기로 했다.<br />
+각종 인터넷 강좌들을 찾아보다가 종이책도 있으면 좋을 것 같아서 주문했다.</p>
 
-<p>해당 설정은 아래에서 변경할 수 있다. (Xcode 14.2 기준)<br />
-[Xcode] - [Settings] - [General] - [File Extensions]</p>
+<p><img src="https://user-images.githubusercontent.com/129058815/228552387-6ac6ba93-4bf6-4d84-bc90-654232839d4a.png" alt="swiftbook Small" /></p>
 
-<ol>
-  <li>
-    <p>Xcode - Settings<br />
-<img src="https://user-images.githubusercontent.com/129058815/229529212-8eeabb89-2bd6-4772-8557-6127dea9abc4.png" alt="XcodeSettings" /></p>
-  </li>
-  <li>
-    <p>General - File Extensions<br />
-<img src="https://user-images.githubusercontent.com/129058815/229529632-9054d5d7-38bc-460c-a6a6-e23fb04b361a.png" alt="XcodeFileExtensionsSetting" /></p>
-  </li>
-  <li>
-    <p>Select [Show All]
-<img src="https://user-images.githubusercontent.com/129058815/229531233-06d2ab6d-ccc3-4472-b907-a50a601ca335.png" alt="SelectShowAll" /></p>
-  </li>
-</ol>
-
-<blockquote>
-  <p>File Extensions 의 옵션으로는 4가지 중에 선택할 수 있다.<br />
-<img src="https://user-images.githubusercontent.com/129058815/229530791-acf52756-5194-4d04-b021-90176e18d44f.png" alt="XcodeFileExtensionsOptions" /><br />
-option : Hide All, Show All, *Show Listed, *Hide Listed<br />
-*표시할 확장자, 숨길 확장자를 개별 지정하는 것도 가능하다.</p>
-</blockquote>
-
-<p><em>Show All</em> 을 선택하면, 아래와 같이 확장자가 표시된 파일들을 확인할 수 있다.
-<img src="https://user-images.githubusercontent.com/129058815/229531385-8617bd4c-1f3a-4127-8778-f94ab4e4b9c7.png" alt="FileExtensionsShowAll" /></p>
-
-<!--사진 정렬이 너무 안예뻐서 나중에 다시 찍어서 정리해야지-->
+<p>가장 인기가 많은 책으로 주문했는데 (꼼꼼한 재은씨 실전편은 품절이라 못 구했다)<br />
+생각보다 볼륨이 엄청나고 진짜 무겁다..!<br />
+열심히 보고 재밌게 공부해야지.</p>
 
         
       </section>
@@ -331,7 +310,7 @@ option : Hide All, Show All, *Show Listed, *Hide Listed<br />
     <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
     <span itemprop="keywords">
     
-      <a href="/tags/#swift-xcode" class="page__taxonomy-item p-category" rel="tag">Swift, Xcode</a>
+      <a href="/tags/#blog-swift" class="page__taxonomy-item p-category" rel="tag">Blog, Swift</a>
     
     </span>
   </p>
@@ -348,7 +327,7 @@ option : Hide All, Show All, *Show Listed, *Hide Listed<br />
     <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
     <span itemprop="keywords">
     
-      <a href="/categories/#howto" class="page__taxonomy-item p-category" rel="tag">howTo</a>
+      <a href="/categories/#swift" class="page__taxonomy-item p-category" rel="tag">Swift</a>
     
     </span>
   </p>
@@ -356,7 +335,7 @@ option : Hide All, Show All, *Show Listed, *Hide Listed<br />
 
         
 
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2023-04-03">April 3, 2023</time></p>
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2023-03-29">March 29, 2023</time></p>
 
       </footer>
 
@@ -365,22 +344,23 @@ option : Hide All, Show All, *Show Listed, *Hide Listed<br />
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=Xcode+%EB%82%B4%EB%B9%84%EA%B2%8C%EC%9D%B4%ED%84%B0%EC%97%90%EC%84%9C+%ED%8C%8C%EC%9D%BC+%ED%99%95%EC%9E%A5%EC%9E%90+%ED%91%9C%EC%8B%9C%ED%95%98%EA%B8%B0%20http%3A%2F%2Flocalhost%3A4000%2Fhowto%2Fxcode-howto-showfileextension%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=Swift+%EA%B3%B5%EB%B6%80%EC%97%90+%EC%95%9E%EC%84%9C%20http%3A%2F%2Flocalhost%3A4000%2Fswift%2Fnew-books%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fhowto%2Fxcode-howto-showfileextension%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fswift%2Fnew-books%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fhowto%2Fxcode-howto-showfileextension%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fswift%2Fnew-books%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
       
   <nav class="pagination">
     
-      <a href="/blog/swift-school/" class="pagination--pager" title="Swift 강의
+      <a href="/blog/fist-post/" class="pagination--pager" title="github.io 블로그 시작하기
 ">Previous</a>
     
     
-      <a href="#" class="pagination--pager disabled">Next</a>
+      <a href="/swift/swift-school/" class="pagination--pager" title="Swift 강의
+">Next</a>
     
   </nav>
 
@@ -404,19 +384,19 @@ option : Hide All, Show All, *Show Listed, *Hide Listed<br />
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
       
-        <a href="/blog/swift-school/" rel="permalink">Swift 강의
+        <a href="/xcode/xcode-howto-showfileextension/" rel="permalink">Xcode 내비게이터에서 파일 확장자 표시하기
 </a>
       
     </h2>
     
     
-      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> March 30 2023</p>
+      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> April 03 2023</p>
     
 
     
 
 
-    <p class="archive__item-excerpt" itemprop="description">일단 Youtube?
+    <p class="archive__item-excerpt" itemprop="description">.swift .storyboard 등등
 </p>
   </article>
 </div>
@@ -431,19 +411,19 @@ option : Hide All, Show All, *Show Listed, *Hide Listed<br />
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
       
-        <a href="/blog/new-books/" rel="permalink">Swift 공부에 앞서
+        <a href="/swift/swift-school/" rel="permalink">Swift 강의
 </a>
       
     </h2>
     
     
-      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> March 29 2023</p>
+      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> March 30 2023</p>
     
 
     
 
 
-    <p class="archive__item-excerpt" itemprop="description">일단 책부터 산다
+    <p class="archive__item-excerpt" itemprop="description">일단 Youtube?
 </p>
   </article>
 </div>
